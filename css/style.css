@@ -1,0 +1,135 @@
+html, body{
+    font-family: "Soho Gothic W01 Regular", sans-serif;
+    height: 100%;
+    background-color: #ededed;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.noborder{
+    border: 0px none !important;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+#page-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+header{
+    border-bottom: 10px solid #0578bd;
+    background: #fff;
+    height: 120px;
+    line-height: 120px;
+}
+
+header .ft-icon {
+    display: inline-block;
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.14902);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.14902);
+    -o-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.14902);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.14902);
+    width: 60px;
+    height: 68px;
+}
+
+header .ft-icon img{
+    width: 49px;
+    height: 42px;
+    position: absolute;
+    top: 17px;
+    left: 6px;
+}
+
+header h1{
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 25px;
+    color:#0578bd;
+    font-size: 35px;
+}
+
+
+.wrapper .well{
+    margin-top: 2%;
+    width: 49%;
+    float:left;
+    font-size: 15px;
+    padding:0px;
+    border:0px none;
+}
+
+.wrapper .well>div{
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 2% 4%;
+}
+
+.wrapper .well:first-child{
+    margin-right: 2%;
+}
+
+.wrapper .well .heading {
+    font-weight: normal;
+    font-size: 31px;
+}
+
+.wrapper .well .badge {
+    padding: 1px 9px 2px 9px;
+    background: #39990b;
+    text-align: right;
+}
+
+.push{
+    height: 150px;
+}
+
+footer{
+    background: #2257a6;
+    border-top: 10px solid #0578bd;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 19px;
+    text-align: right;
+    padding: 20px 0px;
+    height: 100px;
+}
+
+footer .logo {
+    position: absolute;
+    max-height: 100px;
+    left: 2px;
+    top: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.note{
+    color: #aaa;
+}
+
+[class*=" icon-"] {
+    line-height: 18px;
+    margin-right: 6px;
+    height: 16px;
+}
